@@ -1,0 +1,25 @@
+h1 {
+	text-align: center;
+	margin-top: 18%;
+	font-family: Segoe UI;
+	font-size: 80px;
+	font-weight: normal;
+}
+#red {
+	color: red;
+}
+#orange {
+	color: orange;
+}
+#yellow {
+	color: yellow;
+}
+#green {
+	color: green;
+}
+#blue {
+	color: blue;
+}
+#purple {
+	color: purple;
+}
