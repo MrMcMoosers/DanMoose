@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type = "text/css" rel = "stylesheet" href = "stylesheet.css"/>
+		<script src = "http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<title>Funny Button</title>
+	</head>
+	<body>
+		<h1>CLICK THIS BUTTON FOR INSTANT HAPPINESS</h1>
+		<div id = "button">INSTANT HAPPINESS</div>
+		<center>
+			<div id = "middle" class = "cats"><img class = "cats" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_wFoH0YS-owS8S586uXt81BSt8ZyrpKW-bKG1QNju9EyXuB19w"/></div>
+			<div id = "left" class = "cats"><img class = "cats" src = "http://www.petfinder.com/wp-content/uploads/2012/11/101418789-cat-panleukopenia-fact-sheet-632x475.jpg"/></div>
+			<div id = "right" class = "cats"><img class = "cats" src = "http://images6.fanpop.com/image/photos/32900000/Cat-cats-32958715-1440-900.jpg"/></dvi>
+		</center>
+		<script type = "text/javascript">
+			$(document).ready(function() {
+				$('.cats').hide();
+				$('#button').click(function() {
+					$('.cats').fadeIn('slow');
+					$('#middle').animate({top: '+=300px'}, 100);
+					$('#left').animate({left: '+=100px'}, 100);
+					$('#right').animate({right: '+=100px'}, 100);
+				});
+			});
+		</script>
+	</body>
+</html>
