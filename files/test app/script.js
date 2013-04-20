@@ -28,7 +28,7 @@ while (userNum != computerNum) {
 }
 tries++;
 if (tries > 1) {
-	alert("You win! It took you " + tries + " " + plural + ".");
+	alert("You win! It took you " + tries + " " + plural + ". Motherfucker.");
 }
 else {
 	alert("You win! It took you " + tries + " " + singular + "!");
