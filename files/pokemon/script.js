@@ -16,7 +16,8 @@ var genderQuestion = function(gender) {
 		genderQuestion(prompt("OAK: Now tell me. Are you a boy? Or are you a girl?","BOY or GIRL").toUpperCase);
 	}
 };
-genderQuestion(prompt("OAK: Now tell me. Are you a boy? Or are you a girl?","BOY or GIRL").toUpperCase);
+var borg=prompt("OAK: Now tell me. Are you a boy? Or are you a girl?","BOY or GIRL").toUpperCase;
+genderQuestion(borg);
 var name = prompt("OAK: Let's begin with your name. What is it?","Type your name here").toUpperCase;
 function nameConfirm(confirm) {
 	if (confirm === "YES") {}
